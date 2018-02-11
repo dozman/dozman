@@ -2120,6 +2120,6 @@ $intProgramID = 0;
 $objDigitalPlumber = new DigitalPlumber();
 $objDigitalPlumber->setPuzzelList($puzzle_input);
 $objDigitalPlumber->run($intProgramID);
-echo $objDigitalPlumber->getTotalPrograms();
+echo "How many programs are in the group that contains program ID {$intProgramID}: " . $objDigitalPlumber->getTotalPrograms();
 
 
